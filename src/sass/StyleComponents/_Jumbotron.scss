@@ -1,0 +1,97 @@
+.jumbotron-section {
+  background-image: url("https://images.unsplash.com/photo-1621652902964-d67b77dcfaba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1969&q=80");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  // padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.one-text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.two-text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #ffc700;
+}
+
+.desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn-buy {
+  @include button-variant(#ffc700, transparent);
+  color: #4f514f;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    filter: drop-shadow(0px 1px 10px rgba(255, 199, 0, 0.4));
+  }
+}
+
+.btn-sign-in {
+  background-color: rgba(255, 199, 0, 0.1);
+  border: 1px solid #ffc700;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffc700;
+  min-width: 150px;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    filter: drop-shadow(0px 1px 10px rgba(255, 199, 0, 0.4));
+  }
+}
+
+.video-trailers {
+  position: relative;
+}
+
+.btn-play {
+  position: relative;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  border-radius: 41px;
+  border: 1px solid #ffc700;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 45%;
+  bottom: 45%;
+  left: 48%;
+  right: 48%;
+}
+
+.icon-play {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
+.btn-play-now {
+  border: 0;
+}

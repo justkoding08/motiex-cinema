@@ -1,0 +1,17 @@
+// Bootstrap SASS import
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// CSS Global Import
+@import "./global";
+@import "./fonts";
+
+// CSS Component Import
+@import "./StyleComponents/Navbar";
+@import "./StyleComponents/InputSearch";
+@import "./StyleComponents/Jumbotron";
+@import "./StyleContainers/CardUpcoming";
+@import "./StyleContainers/CardTopRated";
+@import "./StyleContainers/CardPopular";
+@import "./StyleContainers/Hero";
+@import "./StyleContainers/CallCenter";
+@import "./StyleContainers/CardCinema";

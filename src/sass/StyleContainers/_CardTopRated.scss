@@ -1,0 +1,126 @@
+.toprated-section {
+  background-color: #222831;
+  padding-top: 80px;
+}
+
+.text-title-toprated {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  color: #e5e5e5;
+  letter-spacing: 1px;
+}
+
+.text-title-toprated span {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffc700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card-toprated {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+
+  .bg-image-toprated {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #000000 0%, rgba(58, 45, 0, 0) 100%),
+      linear-gradient(360deg, #3e3000 0%, rgba(62, 48, 0, 0) 100%);
+    transform: translateY(100%);
+    transition: all 0.5s;
+  }
+
+  .image-toprated {
+    transition: all 0.5s;
+  }
+
+  .form-toprated {
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    right: 40%;
+
+    .btn-toprated-play {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #ffc700;
+      transition: all 0.5s;
+
+      .icon-play-toprated {
+        position: absolute;
+        top: 11px;
+        left: 13px;
+      }
+
+      &:hover {
+        filter: drop-shadow(0px 1px 15px rgba(255, 199, 0, 0.6));
+      }
+    }
+  }
+
+  .text-toprated {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(360deg, #000000 0%, rgba(58, 45, 0, 0) 100%);
+    transform: translateY(100%);
+    transition: all 0.5s;
+  }
+
+  .text-toprated h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #e5e5e5;
+  }
+
+  .toprated-star {
+    .star-on {
+      font-size: 12px;
+      color: #ffc700;
+      margin-right: 6px;
+    }
+
+    .star-off {
+      font-size: 12px;
+      color: #ffc700;
+      margin-right: 8px;
+    }
+
+    .title-rated-star {
+      font-family: "Oswald", sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      color: #989898;
+    }
+
+    .title-rated-star small {
+      font-family: "Oswald", sans-serif;
+      font-weight: 600;
+      font-size: 10px;
+      color: #989898;
+    }
+  }
+}
+
+.card-toprated:hover .image-toprated {
+  transform: scale(1.12);
+}
+
+.card-toprated:hover .text-toprated {
+  transform: translateY(0);
+}
+
+.card-toprated:hover .bg-image-toprated {
+  transform: translateY(0);
+}
