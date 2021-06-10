@@ -44,13 +44,12 @@ export default class Hero extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      fade: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 0,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 4000,
       arrows: false,
       className: "center",
       responsive: [
@@ -146,7 +145,7 @@ export default class Hero extends Component {
                       <i className="fas fa-info-circle me-2" />
                       View Detail
                     </Link>
-                    <button type="button" class="btn btn-playNow btn-lg px-4">
+                    <button type="button" class="btn btn-playnow btn-lg px-4">
                       <i className="fas fa-play-circle me-2" />
                       Play Trailer
                     </button>

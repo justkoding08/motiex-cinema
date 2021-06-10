@@ -82,7 +82,7 @@
     border-radius: 4px;
     font-family: "Acme", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 
     transition: all 0.3s ease-out;
 
@@ -92,13 +92,13 @@
     }
   }
 
-  .btn-playNow {
+  .btn-playnow {
     @include button-variant(#ffc700, transparent);
     color: #4f514f;
     border-radius: 4px;
     font-family: "Acme", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 
     transition: all 0.3s ease-out;
 
