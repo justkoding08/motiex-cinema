@@ -107,7 +107,7 @@ export default class Hero extends Component {
             <Fragment>
               <div className="row flex-lg-row-reverse align-items-center justify-content-center pt-4 pb-2 row-playNow">
                 <div className="col-10 col-sm-8 col-lg-6">
-                  <div className="overlay-playNow border-0 mb-sm-3 mb-md-3">
+                  <div className="overlay-playNow border-0 mb-4 mb-sm-4 mb-md-4">
                     <img
                       src={IMG_API + itemPlay.backdrop_path}
                       className="d-block mx-lg-auto img-fluid image-playNow"
@@ -123,7 +123,7 @@ export default class Hero extends Component {
                   <h1 class="display-5 fw-bold subtitle-playNow text-center text-sm-center text-md-center text-lg-start">
                     {itemPlay.title}
                   </h1>
-                  <div className="hero-star d-flex justify-content-start align-items-center lh-1 mb-3 justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                  <div className="hero-star d-flex justify-content-start align-items-center lh-1 mb-3 justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start">
                     <small className="fas fa-star star-on" />
                     <small clasName="fas fa-star star-on" />
                     <small className="fas fa-star star-on" />
@@ -135,9 +135,11 @@ export default class Hero extends Component {
                       <small>/10 ({itemPlay.vote_count})</small>
                     </span>
                   </div>
-                  <p className="lead overview-playNow text-center text-sm-center text-md-center text-lg-start">
-                    {itemPlay.overview}
-                  </p>
+                  <div className="d-flex justify-content-start align-items-center mb-3 justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                    <p className="lead overview-playNow text-center text-sm-center text-md-center text-lg-start lh-2">
+                      {itemPlay.overview}
+                    </p>
+                  </div>
                   <div className="d-grid gap-2 d-sm-flex justify-content-sm-center justify-content-md-center justify-content-lg-start">
                     <Link
                       to="/"

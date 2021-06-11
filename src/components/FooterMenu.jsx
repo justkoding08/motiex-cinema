@@ -7,7 +7,7 @@ const FooterMenu = () => {
       <hr className="hr" />
       <div className="container">
         <div className="row">
-          <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <img
               src="../../../images/logo.svg"
               className="img-fluid"
@@ -19,7 +19,7 @@ const FooterMenu = () => {
               you can enjoy only at MOVTIEX.
             </h5>
           </div>
-          <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <h5 className="title-footer mb-4">
               Why <span>Choose Us?</span>
             </h5>
@@ -47,7 +47,7 @@ const FooterMenu = () => {
               </li>
             </ul>
           </div>
-          <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <h5 className="title-footer mb-4">
               Explore <span>Link</span>
             </h5>
@@ -75,7 +75,7 @@ const FooterMenu = () => {
             </ul>
           </div>
 
-          <div className="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
             <h5 className="title-footer mb-4">
               Our <span>Office</span>
             </h5>
