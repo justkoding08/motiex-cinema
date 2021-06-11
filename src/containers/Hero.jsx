@@ -131,8 +131,7 @@ export default class Hero extends Component {
                     <small className="fas fa-star star-on" />
                     <small className="fas fa-star-half-alt star-off" />
                     <span className="title-hero-star">
-                      {itemPlay.vote_average}
-                      <small>/10 ({itemPlay.vote_count})</small>
+                      {itemPlay.vote_average} ({itemPlay.vote_count})
                     </span>
                   </div>
                   <div className="d-flex justify-content-start align-items-center mb-3 justify-content-sm-center justify-content-md-center justify-content-lg-start">
