@@ -68,7 +68,7 @@ const Navbar = () => {
                 to="/"
                 type="button"
                 className="btn btn-sign-up px-4 btn-block">
-                Join Now
+                Join Free
               </Link>
             </div>
           </div>

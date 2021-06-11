@@ -5,9 +5,41 @@
   .text-title-cinema {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e5e5;
     letter-spacing: 1px;
     text-transform: uppercase;
+  }
+
+  .text-title-join-btn {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #e5e5e5;
+    letter-spacing: 1px;
+  }
+
+  .text-subtitle-join-btn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #e5e5e5;
+    max-width: 550px;
+  }
+
+  .btn-sign-up {
+    @include button-variant(#ffc700, transparent);
+    color: #4f514f;
+    border-radius: 4px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      filter: drop-shadow(0px 1px 15px rgba(255, 199, 0, 0.6));
+    }
   }
 }

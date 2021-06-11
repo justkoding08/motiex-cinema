@@ -10,28 +10,27 @@
 
   .title-footer {
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
     color: #e5e5e5;
   }
 
   .title-footer span {
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     color: #ffc700;
   }
 
   .footer-item {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 
     .footer-link {
       font-family: "Open Sans", sans-serif;
       text-decoration: none;
       font-weight: 400;
-      font-size: 14px;
-      color: #747474;
-      letter-spacing: 1px;
+      font-size: 13px;
+      color: #8f8f8f;
       transition: all 0.5s ease;
 
       &:hover {
@@ -43,9 +42,9 @@
   .logo-desc {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 27px;
-    color: #747474;
+    color: #8f8f8f;
     max-width: 270px;
     margin-top: 10px;
     margin-bottom: 10px;
