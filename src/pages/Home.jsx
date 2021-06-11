@@ -6,6 +6,8 @@ import CardTopRated from "../containers/CardTopRated";
 import CardPopular from "../containers/CardPopular";
 import Hero from "../containers/Hero";
 import CardCinema from "../containers/CardCinema";
+import FooterMenu from "../components/FooterMenu";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <CardTopRated />
       <CardPopular />
       <CardCinema />
+      <FooterMenu />
+      <Footer />
     </Fragment>
   );
 };

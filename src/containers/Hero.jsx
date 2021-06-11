@@ -105,39 +105,40 @@ export default class Hero extends Component {
         {this.state.playNow.map((itemPlay) => {
           return (
             <Fragment>
-              <div class="row flex-lg-row-reverse align-items-center justify-content-center py-4 row-playNow">
-                <div class="col-10 col-sm-8 col-lg-6">
+              <div className="row flex-lg-row-reverse align-items-center justify-content-center pt-4 pb-2 row-playNow">
+                <div className="col-10 col-sm-8 col-lg-6">
                   <div className="overlay-playNow border-0 mb-sm-3 mb-md-3">
                     <img
                       src={IMG_API + itemPlay.backdrop_path}
-                      class="d-block mx-lg-auto img-fluid image-playNow"
+                      className="d-block mx-lg-auto img-fluid image-playNow"
                       alt={itemPlay.title}
                     />
                     <div className="overlay-bg-playNow" />
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <h1 class="display-5 fw-bold lh-1 title-playNow text-center text-sm-center text-md-center text-lg-start">
+                <div className="col-lg-6">
+                  <h1 className="display-5 fw-bold lh-1 title-playNow text-center text-sm-center text-md-center text-lg-start">
                     Ready to Enjoy the Movie
                   </h1>
                   <h1 class="display-5 fw-bold subtitle-playNow text-center text-sm-center text-md-center text-lg-start">
                     {itemPlay.title}
                   </h1>
                   <div className="hero-star d-flex justify-content-start align-items-center lh-1 mb-3 justify-content-sm-center justify-content-md-center justify-content-lg-start">
-                    <small class="fas fa-star star-on" />
-                    <small class="fas fa-star star-on" />
-                    <small class="fas fa-star star-on" />
-                    <small class="fas fa-star star-on" />
-                    <small class="fas fa-star-half-alt star-off" />
+                    <small className="fas fa-star star-on" />
+                    <small clasName="fas fa-star star-on" />
+                    <small className="fas fa-star star-on" />
+                    <small className="fas fa-star star-on" />
+                    <small className="fas fa-star star-on" />
+                    <small className="fas fa-star-half-alt star-off" />
                     <span className="title-hero-star">
                       {itemPlay.vote_average}
-                      <small>/10</small> ({itemPlay.vote_count})
+                      <small>/10 ({itemPlay.vote_count})</small>
                     </span>
                   </div>
-                  <p class="lead overview-playNow text-center text-sm-center text-md-center text-lg-start">
+                  <p className="lead overview-playNow text-center text-sm-center text-md-center text-lg-start">
                     {itemPlay.overview}
                   </p>
-                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                  <div className="d-grid gap-2 d-sm-flex justify-content-sm-center justify-content-md-center justify-content-lg-start">
                     <Link
                       to="/"
                       type="button"

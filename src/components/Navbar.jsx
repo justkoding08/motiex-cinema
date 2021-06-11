@@ -9,9 +9,11 @@ const Navbar = () => {
           <Link to="/" className="navbar-brand">
             <img
               src="../../../images/logo.svg"
-              alt=""
-              width="150"
-              height="33"></img>
+              alt="Movtiex"
+              width="130"
+              height="13"
+              className="img-fluid"
+            />
           </Link>
           <button
             className="navbar-toggler"
@@ -27,6 +29,11 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item active">
+                <Link to="/" className="nav-link">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/" className="nav-link">
                   Movies
                 </Link>
@@ -48,11 +55,22 @@ const Navbar = () => {
               />
               <div className="notif" />
             </Link>
-            <form action="#" className="d-grid">
-              <button type="submit" class="btn btn-signup px-4 btn-block">
-                Free Sign Up
-              </button>
-            </form>
+            <div className="button-sign-in d-grid mb-3 mb-sm-3 mb-md-3 mb-lg-0 mt-3 mt-sm-3 mt-md-3 mt-lg-0">
+              <Link
+                to="/"
+                type="button"
+                className="btn btn-sign-in px-4 btn-block">
+                Sign In
+              </Link>
+            </div>
+            <div className="button-sign-up d-grid">
+              <Link
+                to="/"
+                type="button"
+                className="btn btn-sign-up px-4 btn-block">
+                Join Now
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
