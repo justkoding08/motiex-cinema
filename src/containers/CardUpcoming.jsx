@@ -104,7 +104,7 @@ export default class CardUpcoming extends Component {
           <div className="row mb-3">
             <div className="col-lg-12 d-flex justify-content-between align-items-center">
               <h2 className="text-title-upcoming">
-                New Movie <span>ComingSoon</span>
+                Coming<span>Soon</span>
               </h2>
               <div className="prev-next-arrow">
                 <button
